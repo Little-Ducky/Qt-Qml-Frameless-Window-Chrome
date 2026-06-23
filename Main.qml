@@ -1,0 +1,8 @@
+import QtQuick
+
+AppChrome {
+    width: 640
+    height: 480
+
+    title: qsTr("AppChrome demo")
+}
