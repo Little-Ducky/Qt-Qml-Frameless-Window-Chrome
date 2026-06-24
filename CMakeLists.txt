@@ -29,7 +29,7 @@ if(WIN32)
 
 elseif(APPLE)
     list(APPEND PLATFORM_SOURCES
-        platform/ui/appmainwindow/mac/MacPlatform.cpp
+        platform/ui/appmainwindow/mac/MacPlatform.mm
     )
 
 elseif(UNIX)

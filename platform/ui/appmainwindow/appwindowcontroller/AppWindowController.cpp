@@ -6,15 +6,15 @@ AppWindowController::AppWindowController(QObject *parent)
 {
 }
 
-void AppWindowController::toggleFullscreen()
+void AppWindowController::toggleMaximized()
 {
-    if (m_window->visibility() == QWindow::FullScreen)
+    if (m_window->visibility() == QWindow::Maximized)
     {
         showNormal();
     }
     else
     {
-        showFullScreen();
+        showMaximized();
     }
 }
 

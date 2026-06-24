@@ -59,15 +59,19 @@ Rectangle {
 
         CaptionButton {
             text: "—"
+            
             Layout.alignment: Qt.AlignVCenter
             Layout.fillHeight: true
+            
             onClicked: window.controller.showMinimized()
         }
 
         CaptionButton {
             text: "✕"
+            
             Layout.alignment: Qt.AlignVCenter
             Layout.fillHeight: true
+            
             onClicked: window.controller.close()
         }
     }
