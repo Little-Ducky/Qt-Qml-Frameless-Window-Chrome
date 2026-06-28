@@ -8,10 +8,10 @@
 using Platform = WindowsPlatform;
 #elif defined(__APPLE__)
 #include "macplatform/MacPlatform.h"
-using Platform = WindowsPlatform;
+using Platform = MacPlatform;
 #elif defined(__linux__)
 #include "linuxplatform/LinuxPlatform.h"
-using Platform = WindowsPlatform;
+using Platform = LinuxPlatform;
 #endif
 
 namespace Application {
