@@ -87,7 +87,9 @@ qt_add_qml_module(${TARGET_NAME}
         domain/WindowConstants.h
 
         platform/IPlatform.h
+
         platform/BaseWindow.h
+        platform/BaseWindow.cpp
 
         controllers/captioncontroller/CaptionController.h
         controllers/captioncontroller/CaptionController.cpp
