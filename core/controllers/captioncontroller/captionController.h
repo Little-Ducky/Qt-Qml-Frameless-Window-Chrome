@@ -1,5 +1,5 @@
-#ifndef APPCAPTION_H
-#define APPCAPTION_H
+#ifndef CAPTIONCONTROLLER_H
+#define CAPTIONCONTROLLER_H
 
 #include <QObject>
 #include <QGuiApplication>
@@ -22,4 +22,4 @@ public:
     Q_INVOKABLE int height() const;
 };
 
-#endif // APPCAPTION_H
+#endif // CAPTIONCONTROLLER_H

@@ -1,5 +1,5 @@
-#ifndef APPWINDOWCONTROLLER_H
-#define APPWINDOWCONTROLLER_H
+#ifndef WINDOWCONTROLLER_H
+#define WINDOWCONTROLLER_H
 
 #include <QObject>
 #include <QQuickWindow>
@@ -24,4 +24,4 @@ private:
     int m_prevState = 0;
 };
 
-#endif // APPWINDOWCONTROLLER_H
+#endif // WINDOWCONTROLLER_H

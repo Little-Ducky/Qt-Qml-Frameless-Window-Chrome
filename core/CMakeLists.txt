@@ -96,7 +96,6 @@ qt_add_qml_module(${TARGET_NAME}
         controllers/windowcontroller/WindowController.cpp
 
         ${PLATFORM_SOURCES}
-        SOURCES platform/BaseWindow.cpp
 )
 
 target_include_directories(${TARGET_NAME} PRIVATE
